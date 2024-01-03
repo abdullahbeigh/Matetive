@@ -115,7 +115,7 @@ section {
     color: #9930d6;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     color: #9930d6 !important;
 }
 
@@ -157,6 +157,12 @@ section {
     .banner img {
         margin-left: 0;
         width: 100%;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .banner img {
+        display: none;
     }
 }
 
