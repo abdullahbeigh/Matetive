@@ -78,6 +78,12 @@ section {
     margin-left: 100px;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .navbar-nav .nav-link {
+        margin-left: 0;
+    }
+}
+
 .navbar-nav .nav-link::after {
     content: "";
     position: absolute;
@@ -99,6 +105,10 @@ section {
 
 .navbar-nav .nav-link:hover {
     color: #9930d6;
+}
+
+.navbar-toggler{
+    color: #9930d6 !important;
 }
 
 /* Small and Medium Laptop Screen */
