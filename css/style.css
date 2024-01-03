@@ -19,6 +19,10 @@ body {
         box-shadow: 0 20px 30px rgba(0, 0, 0, 0.50);
         backdrop-filter: blur(8px);
     }
+
+    .dropdown-menu {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -39,6 +43,10 @@ body {
 
 .dropdown-item:hover {
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-menu {
+    display: none;
 }
 
 
@@ -763,6 +771,7 @@ Large Mobile Screen
 .row_timeline:nth-child(odd) .description {
     transform: translateX(150px);
     transition: all 0.5s;
+    opacity: 0;
 }
 
 .row_timeline:nth-child(even) .description {
