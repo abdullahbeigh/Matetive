@@ -116,6 +116,10 @@ section {
     }
 }
 
+.navbar-toggler {
+    color: #9930d6 !important;
+}
+
 /* Navbar Ends Here */
 
 
@@ -522,8 +526,7 @@ form #button:hover {
 .f4 .centerIcon a {
     color: #000;
     font-size: 30px;
-    text-align: center;
-    margin: 30px 30px;
+    text-align: start;
 }
 
 a i {

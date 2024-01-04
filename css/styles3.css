@@ -530,8 +530,7 @@ section {
 .f4 .centerIcon a {
     color: #000;
     font-size: 30px;
-    text-align: center;
-    margin: 30px 30px;
+    text-align: start;
 }
 
 a i {
