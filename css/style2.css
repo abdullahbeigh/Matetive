@@ -724,10 +724,9 @@ section {
     color: #9930d6;
 }
 
-
+/* Footer Social Icons Starts Here */
 
 .f4 .centerIcon {
-    /* margin-right: 83px; */
     margin-top: 30px;
 }
 
@@ -735,7 +734,7 @@ section {
     color: #000;
     font-size: 30px;
     text-align: center;
-    margin: 30px 40px;
+    margin: 30px 30px;
 }
 
 a i {
@@ -755,6 +754,7 @@ a i {
     background: none;
 }
 
+/* Footer Social Icons Starts Here */
 /* Contact Links End */
 
 

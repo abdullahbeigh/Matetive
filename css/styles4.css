@@ -450,16 +450,20 @@ form #button:hover {
 }
 
 .f2,
-.f3,
-.f4 {
+.f3 {
     padding-left: 0 !important;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-/* .f4 {
-    padding: 30px;
-} */
+.f4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.f4 ul {
+    padding-left: 0;
+}
 
 
 
@@ -509,21 +513,17 @@ form #button:hover {
     color: #9930d6;
 }
 
-/* Contact Links End */
+/* Footer Social Icons Links Start */
 
-
-
-/* Social Icons Links Start */
 .f4 .centerIcon {
-    /* margin-right: 83px; */
     margin-top: 30px;
 }
 
 .f4 .centerIcon a {
     color: #000;
-    font-size: 15px;
+    font-size: 30px;
     text-align: center;
-    margin: 30px;
+    margin: 30px 30px;
 }
 
 a i {
@@ -543,7 +543,8 @@ a i {
     background: none;
 }
 
-/* Social Icons Links End */
+/* Footer Social Icons Links End */
+/* Contact Links End */
 
 
 
