@@ -86,7 +86,7 @@ section {
     margin-left: 100px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 425px) {
+@media only screen and (min-width: 320px) and (max-width: 520px) {
     .navbar-nav .nav-link {
         margin-left: 0;
     }
@@ -178,9 +178,10 @@ section {
 }
 
 /* Small Mobile Screen */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
     .title {
         padding-left: 0;
+        font-size: 180px;
     }
 }
 
@@ -850,6 +851,10 @@ only screen and (max-width: 425px) {
 
 /* Social Icons Start Here */
 
+.icons {
+    display: none;
+}
+
 @media only screen and (min-width: 769px) and (max-width: 2560px)
 /* only screen and (min-width: 769px) and (max-width: 1024px) */
     {
@@ -936,7 +941,7 @@ only screen and (max-width: 425px) {
     padding: 100px 30px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 425px) {
+@media only screen and (min-width: 320px) and (max-width: 520px) {
     .testimonials_row {
         padding: 30px 0px;
     }
@@ -1187,7 +1192,7 @@ only screen and (max-width: 425px) {
 
 
 
-/* Social Icons Links Start */
+/* Footer Social Icons Links Start */
 .f4 .centerIcon {
     /* margin-right: 83px; */
     margin-top: 30px;
@@ -1217,7 +1222,7 @@ a i {
     background: none;
 }
 
-/* Social Icons Links End */
+/* Footer Social Icons Links End */
 
 
 

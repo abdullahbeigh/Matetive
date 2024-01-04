@@ -3,13 +3,12 @@
 *::after {
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box;
-    font-family: 'Poppin', sans-serif; */
 }
 
 body {
     /* background: rgb(230, 223, 255); */
     --bg-color: var(rgb(230, 223, 255));
+    padding: 0;
 }
 
 /* Navbar Starts Here */
@@ -78,6 +77,12 @@ section {
     cursor: pointer;
     margin-top: 0;
     margin-left: 100px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 520px) {
+    .navbar-nav .nav-link {
+        margin-left: 0;
+    }
 }
 
 .navbar-nav .nav-link::after {
@@ -158,12 +163,13 @@ form {
     flex-wrap: wrap;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 374px) {
+/* Small Mobile Screen */
+@media only screen and (min-width: 320px) and (max-width: 520px) {
     form {
         width: 300px;
         align-items: center;
         justify-content: center;
-        margin: 60px 0 40px -3px;
+        margin: 60px 0 40px 20px;
         /* margin-top: 80px; */
         /* margin-left: -3px; */
         padding: 10px;
@@ -181,22 +187,23 @@ form {
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 424px) {
+/* @media only screen and (min-width: 321px) and (max-width: 376px) {
     form {
         width: 300px;
-        margin-left: 25px;
+        margin-left: 40px;
     }
 }
 
-@media only screen and (min-width: 425px) and (max-width: 480px) {
+@media only screen and (min-width: 376px) and (max-width: 521px) {
     form {
         width: 300px;
-        margin-left: 50px;
+        margin-left: 75px;
     }
-}
+} */
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 521px) and (max-width: 769px) {
     form {
+        width: 450px;
         margin-left: 30px;
         margin-bottom: 50px;
     }
@@ -246,7 +253,7 @@ form #mobile {
     margin-left: 20px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 520px) {
 
     form #lastName,
     form #mobile {
@@ -304,14 +311,34 @@ form #button {
     margin: 5px 0 5px 480px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+/* Small Mobile Screen */
+@media only screen and (min-width: 320px) and (max-width: 520px) {
+    form #button {
+        margin: 15px 0 5px 160px;
+    }
+}
+
+/* Medium Mobile Screen */
+/* @media only screen and (min-width: 321px) and (max-width: 376px) {
+    form #button {
+        margin: 5px 0 5px 160px;
+    }
+} */
+
+/* @media only screen and (min-width: 320px) and (max-width: 481px) {
     form #button {
         margin-right: 280px;
         margin-top: 15px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px),
+@media only screen and (min-width: 481px) and (max-width: 521px) {
+    form #button {
+        margin-left: 160px;
+    }
+} */
+
+@media (min-width: 521px) and (max-width: 1023px),
 (min-width: 1024px) and (max-width: 1440px) {
     form #button:hover {
         background: rgba(255, 255, 255, 0.1);
