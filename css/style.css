@@ -228,7 +228,7 @@ section {
 /* Small Mobile Screen */
 @media only screen and (max-width: 320px) {
     .Typing_Text {
-        font-size: 28px;
+        font-size: 29px;
         margin-left: 15px;
     }
 }
@@ -236,7 +236,7 @@ section {
 /* Medium Mobile Screen */
 @media only screen and (min-width: 321px) and (max-width: 376px) {
     .Typing_Text {
-        font-size: 28px;
+        font-size: 35px;
         margin-left: 15px;
     }
 }
@@ -244,7 +244,7 @@ section {
 /* Large Mobile Screen */
 @media only screen and (min-width: 376px) and (max-width: 426px) {
     .Typing_Text {
-        font-size: 34px;
+        font-size: 39.5px;
         margin-left: 15px;
     }
 }
