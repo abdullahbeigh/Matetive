@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matetive — Something exciting is coming</title>
+  <meta name="description" content="We're reimagining what we do and how we do it. Check back soon." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0a0a0a;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .glow-top {
+      position: fixed;
+      width: 700px;
+      height: 700px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(120, 80, 255, 0.10) 0%, transparent 65%);
+      top: -250px;
+      left: -200px;
+      pointer-events: none;
+    }
+
+    .glow-bottom {
+      position: fixed;
+      width: 600px;
+      height: 600px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(80, 200, 180, 0.08) 0%, transparent 65%);
+      bottom: -200px;
+      right: -150px;
+      pointer-events: none;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 560px;
+      width: 100%;
+    }
+
+    .logo {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.30);
+      margin-bottom: 2rem;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(120, 80, 255, 0.12);
+      border: 1px solid rgba(120, 80, 255, 0.28);
+      color: #a78bfa;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 7px 18px;
+      border-radius: 100px;
+      margin-bottom: 2.25rem;
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 5vw, 3.4rem);
+      font-weight: 300;
+      line-height: 1.18;
+      letter-spacing: -0.025em;
+      color: #ffffff;
+      margin-bottom: 1.25rem;
+    }
+
+    h1 span {
+      font-weight: 600;
+      background: linear-gradient(135deg, #a78bfa 0%, #67e8f9 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subtitle {
+      font-size: 17px;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.42);
+      line-height: 1.75;
+      max-width: 400px;
+      margin: 0 auto 2.75rem;
+    }
+
+    .divider {
+      width: 36px;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.10);
+      margin: 0 auto 2rem;
+    }
+
+    .contact {
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.28);
+      letter-spacing: 0.01em;
+    }
+
+    .contact a {
+      color: rgba(167, 139, 250, 0.75);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .contact a:hover {
+      color: #a78bfa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="glow-top"></div>
+  <div class="glow-bottom"></div>
+
+  <div class="container">
+    <p class="logo">Matetive</p>
+    <div class="badge">Something big is coming</div>
+    <h1>We're building<br>something <span>exciting.</span></h1>
+    <p class="subtitle">
+      We're reimagining what we do and how we do it.<br>
+      Check back soon — it'll be worth the wait.
+    </p>
+    <div class="divider"></div>
+    <p class="contact">
+      In the meantime, reach us at
+      <a href="mailto:hello@matetive.com">hello@matetive.com</a>
+    </p>
+  </div>
+
+</body>
+</html>
